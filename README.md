@@ -1,8 +1,6 @@
 # Javascript Uygulama 4
 
-Bu uygulamada javascript dilini kullanarak verilen sorulara çözüm yazmanız gerekmektedir. Soruları görmek ve çözmek için index.html dosyasını bilgisayarınıza indirerek çalıştırmalısınız. 
-
-###### Uygulamayı düzenlemeye başlamadan önce sayfanın sağ üst tarafında bulunan "Fork" Butonuna tıklayarak uygulamanın bir kopyasını kendi hesabınızda oluşturmalısınız. Yapacağınız tüm değişiklikleri kendi hesabınızdaki kopya üzerinden yapmalısınız.
+Bu uygulamada javascript dilini kullanarak verilen sorulara çözüm yazmanız gerekmektedir. Soruları görmek ve çözmek için index.html dosyasını bilgisayarınıza indirerek çalıştırmalısınız. Yada http://bit.ly/2qBi2fj bağlantısına tıklayarak kodun çalışan hali üzerinde düzenleme yapabilirsiniz.
 
 Uygulamadaki tüm dosyaları indirirerek kendi bilgisayarınızda çalıştırabilirsiniz.
 Dosyaları indirebilmek için sağ üst tarafta bulunan "Clone or download" yazan yeşil butona tıkladıktan sonra "DOWNLOAD ZIP" yazan butona tıklayarak dosyaları indirebilirsiniz.
