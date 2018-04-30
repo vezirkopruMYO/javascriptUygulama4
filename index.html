@@ -1,94 +1,43 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Çevre, Alan ve Hacim Hesabı</title>
-    <style type="text/css">.bolme,.kasa{border:1px solid}.kasa{width:640px;margin:20px auto}.bolme,.cevap,.soru{width:200px}.bolme{float:left;margin:5px;text-align:center}.cember,.daire{border-radius:100%;text-align:center;color:#00f}.soru{margin:5px auto}.cevap{margin:5px auto 0}.daire{background-color:#00f;content:'';width:100px;height:100px;margin:10px auto}.clearfix{clear:both}#yaricap{width:80px;margin:5px}.cember,.kure{content:'';margin:10px auto;width:100px;height:100px}.cember{border:1px solid #00f}.kure{border-radius:50%;display:block;background:radial-gradient(circle at 33px 33px,#2b29ff,#181f44)}.kure .shadow{position:absolute;width:125px;height:100px;background:radial-gradient(circle at 50% 50%,rgba(0,0,0,.4),rgba(0,0,0,.1) 40%,rgba(0,0,0,0) 50%);-webkit-transform:rotateX(80deg) translateZ(-50px);-moz-transform:rotateX(80deg) translateZ(-50px);-ms-transform:rotateX(80deg) translateZ(-50px);-o-transform:rotateX(80deg) translateZ(-50px);transform:rotateX(80deg) translateZ(-50px);z-index:-1;margin-left:-60px}.hesaplaButon{margin:3px}.yaricap{width:100px}</style>
+<script language="javascript">
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+</script>
 </head>
-<body>
-<div class="kasa">
-    <div class="bolme">
-        <div class="soru">
-            <div class="cember">
-
-            </div>
-            Yarıçap =
-            <input id="cemberYaricap" type="text" name="cebmerYaricap" class="yaricap">
-            <input type="button" id="cevreHesapla" value="Hesapla" class="hesaplaButon">
-
-        </div>
-        <div class="cevap">
-            Çevre = <span id="cevre"></span>
-            <script type="text/javascript">
-                document.getElementById('cevreHesapla').addEventListener('click', cevreHesapla);
-                /**
-                 * Yukarıdaki satır, id'si cevreHesapla olan butona tıklandığında cevreHesapla() fonksiyonunun çalışmasını sağlamaktadır.
-                 * cevreHesapla() fonksiyonun amacı name değeri "cebmerYaricap" olan input'dan yarıcap verisini alarak çemberin çevresini hesaplamak ve bu değeri id değeri cevre olan <span> etiketine yazdırmaktır.
-                 * Çemberin çevresi 2πr formülü ile hesaplanır.
-                 *
-                 * Aşağıda içeriği boş olan fonksiyonu amacına uygun şekilde yazınız.
-                 */
-                function cevreHesapla() {
-                }
-            </script>
-        </div>
-    </div>
-    <div class="bolme">
-        <div class="soru">
-            <div class="daire">
-
-            </div>
-            Yarıçap =
-            <input id="daireYaricap" type="text" name="daireYaricap" class="yaricap">
-            <input type="button" id="alanHesapla" value="Hesapla" class="hesaplaButon">
-
-        </div>
-        <div class="cevap">
-            Alan = <span id="alan"></span>
-            <script type="text/javascript">
-                document.getElementById('alanHesapla').addEventListener('click', alanHesapla);
-                /**
-                * Yukarıdaki satır, id'si alanHesapla olan butona tıklandığında alanHesapla() fonksiyonunun çalışmasını sağlamaktadır.
-                * alanHesapla() fonksiyonun amacı name değeri "daireYaricap" olan input'dan yarıcap verisini alarak dairenin alanını hesaplamak ve bu değeri id değeri alan olan <span> etiketine yazdırmaktır.
-                * Dairenin alanı πr^2 formülü ile hesaplanır. (^ işareti üst anlamına gelir.)
-                *
-                * Aşağıda içeriği boş olan fonksiyonu amacına uygun şekilde yazınız.
-                */
-                function alanHesapla() {
-                }
-            </script>
-        </div>
-    </div>
-    <div class="bolme">
-        <div class="soru">
-            <div class="kure">
-                <span class="shadow"></span>
-            </div>
-            Yarıçap =
-            <input id="kureYaricap" type="text" name="kureYaricap" class="yaricap">
-            <input type="button" id="hacimHesapla" class="hesaplaButon" value="Hesapla">
-
-        </div>
-        <div class="cevap">
-            Hacim = <span id="hacim"></span>
-            <script type="text/javascript">
-                document.getElementById('hacimHesapla').addEventListener('click', hacimHesapla);
-                /**
-                 * Yukarıdaki satır, id'si hacimHesapla olan butona tıklandığında hacimHesapla() fonksiyonunun çalışmasını sağlamaktadır.
-                 * hacimHesapla() fonksiyonun amacı name değeri "kureYaricap" olan input'dan yarıcap verisini alarak kürenin hacmini hesaplamak ve bu değeri id değeri hacim olan <span> etiketine yazdırmaktır.
-                 * Kürenin hacmi ((πr^3)4)/3 formülü ile hesaplanır. (^ işareti üst anlamına gelir.)
-                 *
-                 * Aşağıda içeriği boş olan fonksiyonu amacına uygun şekilde yazınız.
-                 */
-                function hacimHesapla() {
-                }
-            </script>
-        </div>
-    </div>
-    <div class="clearfix">
-
-    </div>
-</div>
-
+ <body>
+<form name="form1">   
+<input type="text" name="TxtSayi" id="dizi"/>  
+ 
+<input type="Button" value="Sayıyı Diziye Ekle" name="SayiEkle" onclick="ekle()" />
+<input type="Button" value="Diziyi Yazdır" name="DiziYaz" onclick="yaz()" />
+</form>
 </body>
 </html>
